@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white-bg text-dark-bg font-sans;
+}
+
+.glassmorphism {
+  @apply bg-white bg-opacity-10 border border-white border-opacity-20 shadow-glass;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari compatibility */
+}
+
+section {
+  @apply min-h-screen flex items-center justify-center;
+}
