@@ -17,7 +17,7 @@ import ft3 from '../assets/images/ft4.png';
 import ft4 from '../assets/images/ft6.png';
 import ft5 from '../assets/images/ft7.png';
 import ft6 from '../assets/images/ft8.png';
-import vaccinationPortalImg from '../assets/images/vaccination-portal.jpg';
+import vp1 from '../assets/images/vp1.jpg';
 import gs1 from '../assets/images/gs1.png';
 import gs2 from '../assets/images/gs2.png';
 import gs3 from '../assets/images/gs3.png';
@@ -45,10 +45,10 @@ function Portfolio() {
       demo: '',
     },
     {
-      title: 'Online Vaccination Portal',
+      title: 'Online Vaccination Portal (Safe19)',
       description: 'A web portal for vaccination records using HTML, CSS, JavaScript, and PHP.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'PHP'],
-      images: [vaccinationPortalImg],
+      images: [vp1],
       github: 'https://github.com/vishwaabeyrathna/vaccination-portal',
       demo: '',
     },

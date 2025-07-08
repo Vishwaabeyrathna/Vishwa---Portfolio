@@ -34,7 +34,7 @@ function Home() {
         className="absolute top-1/2 right-0 transform -translate-y-1/2 w-1/3 h-3/4 bg-gradient-to-t from-red-500 to-purple-600 opacity-50 rounded-l-full"
         initial={{ x: '100%', opacity: 0 }}
         animate={{ x: 0, opacity: 0.5 }}
-        transition={{ duration: 1.2, ease: "easeOut" }}
+        transition={{ duration: 1.2, ease: 'easeOut' }}
       />
 
       <motion.div
@@ -51,7 +51,7 @@ function Home() {
           initial={{ scale: 0.8, rotate: -10 }}
           animate={{ scale: 1, rotate: 0 }}
           whileHover={{ scale: 1.1, rotate: 360 }}
-          transition={{ duration: 0.6, type: "spring", stiffness: 100 }}
+          transition={{ duration: 0.6, type: 'spring', stiffness: 100 }}
         />
 
         {/* Name and Greeting */}
@@ -84,13 +84,15 @@ function Home() {
           >
             My CV
           </motion.button>
-          <motion.button
-            className="bg-white text-purple-600 px-8 py-3 rounded-lg border border-purple-600 hover:bg-purple-50 transition duration-300"
+          {/* Corrected "Know More" button to use motion.a */}
+          <motion.a
+            href="#about"
+            className="bg-white text-purple-600 px-8 py-3 rounded-lg border border-purple-600 hover:bg-purple-50 transition duration-300 inline-block"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             Know More
-          </motion.button>
+          </motion.a>
         </div>
 
         {/* Specialization */}
@@ -100,8 +102,7 @@ function Home() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 1.0, duration: 0.8 }}
         >
-          BSc (Hons) in Information Technology Specialized In 
-          Information Technology.
+          BSc (Hons) in Information Technology Specialized In Information Technology.
         </motion.p>
       </motion.div>
     </section>
