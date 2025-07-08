@@ -5,7 +5,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import spiceStoreImg from '../assets/images/spice-store.jpg';
+import spiceStoreImg1 from '../assets/images/spice-store1.png';
+import spiceStoreImg2 from '../assets/images/spice-store2.png';
+import spiceStoreImg3 from '../assets/images/spice-store3.png';
+import spiceStoreImg4 from '../assets/images/spice-store4.png';
+import spiceStoreImg5 from '../assets/images/spice-store5.png';
+import spiceStoreImg6 from '../assets/images/spice-store6.png';
+
 import financeTrackerImg from '../assets/images/finance-tracker.jpg';
 import vaccinationPortalImg from '../assets/images/vaccination-portal.jpg';
 import gamingSiteImg from '../assets/images/gaming-site.jpg';
@@ -14,10 +20,10 @@ function Portfolio() {
   const projects = [
     {
       title: 'Spice Store & Management System',
-      description: 'A full-stack MERN app for spice store management with Node.js, React.js, Express.js, MongoDB, and more.',
+      description: 'My function is User Management, which includes authentication through two-step OTP verification using Brevo SMTP, and authorization through role-based access control. The Admin can perform full CRUD operations on user details, reset passwords,activate or deactivate users, and generate user summary reports.',
       technologies: ['Node.js', 'React.js', 'Express.js', 'MongoDB', 'HTML', 'CSS'],
-      images: [spiceStoreImg],
-      github: 'https://github.com/vishwaabeyrathna/spice-store',
+      images: [spiceStoreImg1,spiceStoreImg2,spiceStoreImg3,spiceStoreImg4,spiceStoreImg5,spiceStoreImg6],
+      github: 'https://github.com/niRmana11/SpiceSense_ITP_project',
       demo: '',
     },
     {
