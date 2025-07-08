@@ -11,8 +11,12 @@ import spiceStoreImg3 from '../assets/images/spice-store3.png';
 import spiceStoreImg4 from '../assets/images/spice-store4.png';
 import spiceStoreImg5 from '../assets/images/spice-store5.png';
 import spiceStoreImg6 from '../assets/images/spice-store6.png';
-
-import financeTrackerImg from '../assets/images/finance-tracker.jpg';
+import ft1 from '../assets/images/ft1.png';
+import ft2 from '../assets/images/ft2.png';
+import ft3 from '../assets/images/ft4.png';
+import ft4 from '../assets/images/ft6.png';
+import ft5 from '../assets/images/ft7.png';
+import ft6 from '../assets/images/ft8.png';
 import vaccinationPortalImg from '../assets/images/vaccination-portal.jpg';
 import gamingSiteImg from '../assets/images/gaming-site.jpg';
 
@@ -27,11 +31,11 @@ function Portfolio() {
       demo: '',
     },
     {
-      title: 'Finance Tracker App',
-      description: 'An Android app built with Kotlin and SharedPreferences for personal finance tracking.',
+      title: 'Finance Tracker App(PocketBrain)',
+      description: 'PocketBrain is a personal finance tracker app developed usingAndroid and Kotlin, designed to help users manage income and expenses effectively. It features category-wise analysis, monthly budget tracking, and secure data storage using Shared Preferences. The app also supports data export/import inJSON format and file sharing via FileProvider',
       technologies: ['Kotlin', 'Android Studio', 'SharedPreferences'],
-      images: [financeTrackerImg],
-      github: 'https://github.com/vishwaabeyrathna/finance-tracker',
+      images: [ft1,ft2,ft3,ft4,ft5,ft6],
+      github: 'https://github.com/vishwaabeyrathna/PocketBrain--personalfinanceapp',
       demo: '',
     },
     {
