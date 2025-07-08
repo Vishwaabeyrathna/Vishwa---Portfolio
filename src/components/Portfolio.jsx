@@ -18,7 +18,13 @@ import ft4 from '../assets/images/ft6.png';
 import ft5 from '../assets/images/ft7.png';
 import ft6 from '../assets/images/ft8.png';
 import vaccinationPortalImg from '../assets/images/vaccination-portal.jpg';
-import gamingSiteImg from '../assets/images/gaming-site.jpg';
+import gs1 from '../assets/images/gs1.png';
+import gs2 from '../assets/images/gs2.png';
+import gs3 from '../assets/images/gs3.png';
+import gs4 from '../assets/images/gs4.png';
+import gs5 from '../assets/images/gs5.png';
+import gs6 from '../assets/images/gs6.png';
+import gs7 from '../assets/images/gs7.png';
 
 function Portfolio() {
   const projects = [
@@ -48,10 +54,10 @@ function Portfolio() {
     },
     {
       title: 'Gaming Site (OOP Project)',
-      description: 'A Java-based gaming site with MySQL, featuring user management and admin CRUD.',
+      description: 'A Java-based gaming site with MySQL, featuring user management and admin CRUD.gaming site built with Eclipse and Java allows user registration, login, and role-based access control. Admins can manage game reviews with full CRUD operations. Userscan submit and view reviews through a JSP interface connected to a MySQL database',
       technologies: ['Java', 'MySQL', 'JavaScript', 'HTML', 'CSS'],
-      images: [gamingSiteImg],
-      github: 'https://github.com/vishwaabeyrathna/gaming-site',
+      images: [gs1,gs2,gs3,gs4,gs5,gs6,gs7],
+      github: 'https://github.com/Vishwaabeyrathna/Legend-Arena---oop-project',
       demo: '',
     },
   ];
