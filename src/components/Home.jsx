@@ -71,7 +71,7 @@ function Home() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          SLIIT Undergraduate | Full Stack Developer | Mobile Application Developer | Software Engineer| IT IT Enthusiast 
+          SLIIT Undergraduate | Full Stack Developer | Mobile Application Developer | Software Engineer |  IT Enthusiast 
         </motion.p>
 
         {/* Stats and Buttons */}
