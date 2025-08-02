@@ -54,7 +54,7 @@ function About() {
         >
           <h3 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">Education</h3>
           <ul className="list-disc list-inside text-gray-600 space-y-2">
-            <li className="text-lg">BSc (Hons) in Information Technology, SLIIT Malabe (Expected Graduation: 2026)</li>
+            <li className="text-lg">BSc (Hons) in Information Technology, SLIIT Malabe (Expected Graduation: 2027)</li>
             <li className="text-lg">GCE Advanced Level, Bioscience Stream, Kegalu Vidyalaya (2021)</li>
             <li className="text-lg">GCE Ordinary Level, Kegalu Vidyalaya (2016)</li>
           </ul>
