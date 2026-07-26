@@ -7,6 +7,7 @@ function Navbar() {
   const navLinks = [
     { href: '#home', label: 'Home' },
     { href: '#about', label: 'About' },
+    { href: '#experience', label: 'Experience' },
     { href: '#portfolio', label: 'Portfolio' },
     { href: '#services', label: 'Services' },
     { href: '#contact', label: 'Contact' },
